@@ -696,8 +696,8 @@
 \newcommand{\lettersection}[1]{%
   \phantomsection{}
   \lettersectionstyle{#1}
-  \color{gray}\vhrulefill{0.9pt}
-  \par\nobreak\addvspace{0.2ex}
+  \color{gray}\vhrulefill{0.7pt}
+  \par\nobreak\addvspace{0.1ex}
 }
 
 % Define a title of the cover letter
@@ -706,7 +706,7 @@
   \par\addvspace{5ex}
   \phantomsection{}
   \lettertitlestyle{#1}
-  \par\nobreak\addvspace{4ex}
+  \par\nobreak\addvspace{3ex}
 }
 
 % Define a closing of the cover letter
@@ -714,11 +714,5 @@
 \newcommand*{\makeletterclosing}{%
   \vspace{3.4mm}
   \lettertextstyle{\@letterclosing} \\\\
-  \letternamestyle{\@firstname\ \@lastname} \\\\\\\\
-  \ifthenelse{\isundefined{\@letterenclosure}}
-    {\\}
-    {%
-      \\\\\\
-      \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
-    }
+  \letternamestyle{\@firstname\ \@lastname}
 }
