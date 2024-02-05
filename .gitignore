@@ -6,5 +6,8 @@
 *.fdb_latexmk
 *.fls
 
-# finished coverletters
-/coverletter.*
+# coverletters
+/coverletter/*
+
+# pdfs
+*.pdf
