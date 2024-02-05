@@ -6,10 +6,11 @@
 *.fdb_latexmk
 *.fls
 
+# pdfs
+*.pdf
+
 # coverletters
 /coverletter/*
 # don't ignore the gitkeep in the coverletter directory
 !/coverletter/.gitkeep
 
-# pdfs
-*.pdf
