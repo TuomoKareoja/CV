@@ -13,4 +13,3 @@
 /coverletter/*
 # don't ignore the gitkeep in the coverletter directory
 !/coverletter/.gitkeep
-
